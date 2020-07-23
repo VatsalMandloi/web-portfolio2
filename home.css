@@ -1,0 +1,127 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+  
+}
+.navbar {
+    display: inline-block;
+   
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 98.5%;
+   opacity: 0.6;
+   padding:10px;
+}
+.navbar ul{
+    margin: 0px;
+    
+    top: 0;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 20px; 
+    cursor: pointer;
+    
+}
+#log{
+    float :right;
+    
+    top: 0;
+    }
+#log li{
+    border : 5px;
+    border-color:  rgb(240, 107, 58);
+    background-color:  rgb(250, 77, 14);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    opacity: 1.0;
+    
+}
+.navbar li:hover{
+    color: aliceblue;
+}
+#log li:hover{
+    background-color: crimson;
+}
+#header{
+    background: linear-gradient(orange,red);
+    height: 560px;
+}
+#header h1{
+    text-align: center;
+    color: azure;
+   padding: 200px;
+   font-size: 50px;
+   font-style:uppercase ;
+   opacity: 0.6;
+}
+#mid{
+    background: linear-gradient(red 95%,rgb(247, 1, 50));
+}
+#mid p,h2{
+    margin: 0px;
+    padding: 10px;
+}
+#contain{
+    background-color: antiquewhite;
+    padding: 50px;
+    width:80% ;
+    margin-left: 85px;
+    border-radius: 10px;
+    display:flexbox;   
+}
+#contain img{
+    height: 120px;
+    width: 120px ;
+    margin: 10px;
+}
+.item{
+    display: inline-grid;
+    margin: 40px;
+     height: 50px;
+     width: 50px;
+}
+.btn{
+   display: block;
+   border: none; 
+   outline: none;
+   width: 82px;
+   height: 31px;
+    font-size: 18px;
+    background-color:rgb(253, 72, 6) ;
+    border-radius:10px ;
+    padding:5px;
+  
+    cursor: pointer;
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: rgb(219, 61, 4);
+    
+}
+#messg{
+    display: none;
+     margin-top: 50px;
+    
+}
+#footer{
+    background: rgb(255, 202, 9);
+}
+
+#footer p,h4,h3{
+    margin: 0px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    color: aliceblue;
+}

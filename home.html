@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalakar</title>
+    <link rel="stylesheet" type="text/css" href='home.css'>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous">
+         
+        </script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <!-- <script src="jquery-3.5.1.min.js"></script> -->
+    <script>
+        $("#messg").hide();
+        $(function () {
+            $(".btn").click(function () {
+                $("#messg").show(2000);
+
+                $("#messg").hide(5000);
+            });
+        });
+       
+     
+
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id=header>
+        <div class='navbar'>
+            <ul>
+                <li><a href="#header">home</a></li>
+                <li><a href="#about" >about us</a></li>
+                <li><a href="#contain">services</a></li>
+                <li><a href="#footer">contact us</a></li>
+                <li id='log'><button class="btn"><a href='login.html'>log in</a> </button></li>
+            </ul>
+        </div>
+        <h1 id="headertext">SMILE.AHEAD</h1>
+    </section>
+
+    <section id="mid">
+        <div id='contain'>
+            <div class='item'><img src="footer.jpg" alt=""><button class='btn'>buy</button></div>
+            <div class='item'><img src="header.jpg" alt=""><button class='btn'>buy</button></div>
+            <div class='item'><img src="peacock.jpg" alt=""><button class='btn'>buy</button></div>
+            <div class='item'><img src="section.jpg" alt=""><button class='btn'>buy</button></div>
+            <div class='item'><img src="login.jpg" alt=""><button class='btn'>buy</button> </div>
+            <div id="messg">thanks,smile will be delivering soon </div>
+        </div>
+        <div id='about'>
+            <h2>ABOUT US</h2>
+            <p>we are enthusiats , who focuse on solving porblem of people with effective and sustanable solution.which
+                make their life easier and simple.
+                <br> i am vatsal mandloi i am a guy who lives everyday with computer and thinking about cars,
+            </p>
+
+        </div>
+    </section>
+
+    <section id='footer'>
+
+        <h3>contact us :</h3>
+        <h4>vatsal.mandloi.247@gmail.com</h4>
+
+    </section>
+</body>
+
+</html>
